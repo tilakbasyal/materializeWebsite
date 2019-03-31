@@ -1,0 +1,7 @@
+.parallax {
+	background-image: url("https://i.imgur.com/sMULqbS.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
