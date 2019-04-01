@@ -1,65 +1,226 @@
-	<!DOCTYPE html>
-	<html>
-		<head>
-			<!--Import Google Icon Font-->
-			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-			<!--Import materialize.css-->
-			<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-			<link rel="stylesheet" type="text/css" href="css/styles.css">
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 
-			<!--Let browser know website is optimized for mobile-->
-			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-			<title>Materialize CSS</title>
-		</head>
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Materialize CSS</title>
+	</head>
 
 
 	<body>
 		<!------------------Navbar Section ------------------------------------------>
 		<header>
-				<nav class="sidenav-trigger" >
-					<div class="container">
-						<div class="nav-wrapper">
-							<a href="#" class="brand-logo">Logo</a>
-							<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-						<ul class="right hide-on-med-and-down">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Profile</a></li>
-							<li><a href="#">Career</a></li>
-							<li><a href="#">Contact Us</a></li>
-						</ul>
-						</div>
+
+			<nav class="sidenav-trigger" >
+				<!-- <div class="container"> -->
+					<div class="nav-wrapper">
+						<a href="#" class="brand-logo">Company Logo</a>
+						<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+					<ul class="right hide-on-med-and-down">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Profile</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
 					</div>
-				</nav>
+				<!-- </div> -->
+			</nav>
 
-
-				<ul class="sidenav" id="mobile-demo">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Profile</a></li>
-					<li><a href="#">Carreer</a></li>
-					<li><a href="#">Contact Us</a></li>
-				</ul>
+			<ul class="sidenav" id="mobile-demo">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Profile</a></li>
+				<li><a href="#">Carreer</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
 		</header>
+		<!-------------------------------Navbar Ends Here ------------------------------------------->
 
+		<!------------------------------Main Section Starts Here -------------------------------------->
 		<main>
-			<div class="parallax-container">
-				<div class="parallax">
-					<div class="texts">
-						<h3>ABC Company</h3>
-						<p>Here goes our motto!!!</p>
-					</div>
+			<div class="slider image-slider">
+				<ul class="slides">
+					<li>
+						<img src="https://i.imgur.com/jhh8I69.jpg"> 
+						<div class="caption center-align">
+							<h3>Here Goes Your Heading</h3>
+							<h5 class="light grey-text text-lighten-3">Here goes your small slogan.</h5>
+						</div>
+					</li>
+
+					<li>
+						<img src="https://i.imgur.com/YgBsS0L.jpg?1"> 
+						<div class="caption left-align">
+						<h3>Left Aligned Caption</h3>
+						<h5 class="light grey-text text-lighten-3">Here goes your small slogan.</h5>
+						</div>
+					</li>
+
+					<li>
+						<img src="https://i.imgur.com/r1u45nq.jpg"> 
+						<div class="caption right-align">
+						<h3>Right Aligned Caption</h3>
+						<h5 class="light grey-text text-lighten-3">Here goes your small slogan.</h5>
+						</div>
+					</li>
+
+					<li>
+						<img src="https://i.imgur.com/OLILOoD.jpg"> 
+						<div class="caption center-align">
+						<h3>This is our big Tagline!</h3>
+						<h5 class="light grey-text text-lighten-3">Here goes your small slogan.</h5>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<div class="row services">
+				<h2 class="center-align">Our Services</h2>
+				<div class=" col s12 m4 l3 card hoverable worksByUs">
+				<div class="card-image waves-effect waves-block waves-light">
+				<img class="activator responsive-img" src="https://i.imgur.com/fDYsdjL.png">
+				</div>
+				<div class="card-content">
+				<span class="card-title activator grey-text text-darken-4">App Development<i class="material-icons right">more_vert</i></span>
+				<p><a href="#">Click for more info.</a></p>
+				</div>
+				<div class="card-reveal">
+				<span class="card-title grey-text text-darken-4">App Development<i class="material-icons right">close</i></span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+				</div>
+				</div>
+
+				<div class=" col s12 m4 l3 card hoverable worksByUs">
+				<div class="card-image waves-effect waves-block waves-light">
+				<img class="activator responsive-img" src="https://i.imgur.com/XohWFIi.png">
+				</div>
+				<div class="card-content">
+				<span class="card-title activator grey-text text-darken-4">Web Hosting<i class="material-icons right">more_vert</i></span>
+				<p><a href="#">Click for more info.</a></p>
+				</div>
+				<div class="card-reveal">
+				<span class="card-title grey-text text-darken-4">Web Hosting<i class="material-icons right">close</i></span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+				</div>
+				</div>
+
+				<div class="col s12 m4 l3 card hoverable worksByUs ">
+				<div class="card-image waves-effect waves-block waves-light">
+				<img class="activator responsive-img" src="https://i.imgur.com/oxc47q7.png">
+				</div>
+				<div class="card-content">
+				<span class="card-title activator grey-text text-darken-4">Web Development<i class="material-icons right">more_vert</i></span>
+				<p><a href="#">Click for more info.</a></p>
+				</div>
+				<div class="card-reveal">
+				<span class="card-title grey-text text-darken-4">Web Development<i class="material-icons right">close</i></span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+				</div>
+				</div>
+
+				<div class="col s12 m4 l3 card hoverable worksByUs">
+				<div class="card-image waves-effect waves-block waves-light">
+				<img class="activator responsive-img" src="https://i.imgur.com/dyvW1Y4.png">
+				</div>
+				<div class="card-content">
+				<span class="card-title activator grey-text text-darken-4">E-Commerce<i class="material-icons right">more_vert</i></span>
+				<p><a href="#">Click for more info.</a></p>
+				</div>
+				<div class="card-reveal">
+				<span class="card-title grey-text text-darken-4">E-commerce<i class="material-icons right">close</i></span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+				</div>
 				</div>
 			</div>
+
+			<div class="row people-say">
+				<h3 class="center-align">What our customers say:</h3>
+				<div class="col s12 m8 l8 paragraphs">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit culpa nemo recusandae cumque numquam modi maxime ea soluta placeat, facilis illo, natus quasi corporis debitis minus dolores, distinctio voluptatibus, eius.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eligendi ullam dicta alias quod iusto consequuntur ad, recusandae animi autem consectetur reprehenderit ex, aliquam. Veniam saepe odit id fuga itaque?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor deleniti quae consequuntur fugit debitis odio veritatis mollitia amet! Sed voluptates similique quam eaque id assumenda unde quidem, aliquam porro fugiat.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam porro, sed error delectus numquam reiciendis possimus ullam necessitatibus dolore culpa! Quod beatae ut non qui, alias repellat nihil molestias quasi.</p>
+				</div>
+
+				<div class="col s12 m4 l3">
+					<img class="circle responsive-img" src="images/girl.jpeg" >
+				</div>
+			</div>
+
+			<div class="row">
+				<h3 class="center-align">Enter your details below: </h3>
+				<form class="col s12">
+					<div class="row">
+						<div class="input-field col s6">
+							<input placeholder="Placeholder" id="first_name" type="text" class="validate">
+							<label for="first_name">First Name</label>
+						</div>
+						<div class="input-field col s6">
+							<input id="last_name" type="text" class="validate">
+							<label for="last_name">Last Name</label>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="phonenumber" type="text" class="validate">
+							<label for="phonenumber">Phone Number</label>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="email" type="email" class="validate">
+							<label for="email">Email</label>
+						</div>
+					</div>
+
+					<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+					<i class="material-icons right">send</i>
+					</button>
+				</form>
+			</div>
 		</main>
+		<!---------------------------Main Section Ends Here ------------------------------------------>
 
-
-
-
-
+		<!---------------------------Footer Starts Here ---------------------------------------------->
+		<footer class="page-footer">
+			<!-- <div class="container"> -->
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Footer Content</h5>
+						<p class="grey-text text-lighten-4">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde facere vel quibusdam aperiam, quisquam maxime ab reiciendis? Aut tenetur suscipit aspernatur nemo accusantium perferendis necessitatibus quibusdam provident dicta. Recusandae, modi!
+						</p>
+					</div>
+					<div class="col l4 offset-l2 s12">
+						<h5 class="white-text">GoTo</h5>
+						<ul>
+						  <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
+						  <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
+						  <li><a class="grey-text text-lighten-3" href="#!">Career</a></li>
+						  <li><a class="grey-text text-lighten-3" href="#!">Gallery</a></li>
+						</ul>
+					</div>
+				</div>
+			<!-- </div> -->
+			<div class="footer-copyright">
+				<div class="container">
+				© 2014 Copyright Text
+				<a class="grey-text text-lighten-4 right" href="#!">What to link here ???</a>
+				</div>
+			</div>
+		</footer>
+		<!---------------------------Footer Ends Here ------------------------------------------------->
 
 		<!--JavaScript at end of body for optimized loading-->
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script> 
 		<script type="text/javascript" src="js/materialize.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
-
 	</body>
-	</html>
+</html>

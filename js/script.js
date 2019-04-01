@@ -3,6 +3,11 @@
     $('.sidenav').sidenav();
   });
 
+
   $(document).ready(function(){
-    $('.parallax').parallax();
+    $('.slider').slider();
+  });
+
+   $(document).ready(function() {
+    $('input#input_text, textarea#textarea2').characterCounter();
   });
