@@ -1,3 +1,10 @@
+.services {
+	display: flex;
+	flex-wrap: wrap;
+}
+.row .col.m4 {
+	margin-left: 0px;
+}
 
 .people-say {
 	background-color: #99ccff;
